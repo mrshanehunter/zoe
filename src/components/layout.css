@@ -7,6 +7,7 @@ html {
 }
 body {
   margin: 0;
+  background: pink;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -19,6 +20,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
 article,
 aside,
 details,
@@ -65,7 +67,6 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: inherit;
   font-weight: bolder;
 }
 dfn {
@@ -80,7 +81,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: papayawhip;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
