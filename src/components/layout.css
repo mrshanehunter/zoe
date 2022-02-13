@@ -7,7 +7,7 @@ html {
 }
 body {
   margin: 0;
-  background: pink;
+  background: #f97dea;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
@@ -81,13 +81,21 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: papayawhip;
+
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 100px;
   line-height: 1.1;
+}
+.emboss {
+  color: #fcb6f4;
+  background: #af6da8;
+  text-shadow: 1px 4px 4px #583754;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
 mark {
   background-color: #ff0;

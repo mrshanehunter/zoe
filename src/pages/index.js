@@ -17,9 +17,9 @@ const IndexPage = () => (
     <Seo title="Home" />
     <ContentContainer>
       <Bounce cascade delay={3000}>
-        <h1>Z</h1>
-        <h1>O</h1>
-        <h1>E</h1>
+        <h1 className="emboss">Z</h1>
+        <h1 className="emboss">O</h1>
+        <h1 className="emboss">E</h1>
       </Bounce>
     </ContentContainer>
   </Layout>
